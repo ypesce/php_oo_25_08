@@ -4,9 +4,7 @@
         include 'Parts/stylesheets.html'
         ?>
     </head>
-<?php
-include '../include.php'
-?>
+
     <body>
     <div class="container">
     <a href="../index.php?controller=car&action=addForm">

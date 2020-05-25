@@ -36,6 +36,6 @@ class CarController {
         $car = new Article($id, $_POST['marque'], $_POST['modele'],$_POST['energie'],$_POST['automatique']);
 	    $carManager->update($car);
 
-        header('Location: /correctionMVC/index.php?controller=default&action=home');
+        header('Location: /index.php?controller=default&action=home');
     }
 }
